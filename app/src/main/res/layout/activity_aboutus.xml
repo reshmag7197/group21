@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutus">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/aboutus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="__ABOUT US__ Medlogs brings to you an online platform, which can be
+accessed for all your health needs. We are trying to make healthcare a hassel-free experience
+for you."
+        android:layout_marginTop="20dp"
+        android:id="@+id/vision"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/idea" />
+
+    <TextView
+        android:id="@+id/Values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="__Idea__To develop a system that will find the generic substitute with respect to the branded ones.
+To spread the awareness about the availability of generic medicines.
+" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/offer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:layout_marginTop="20dp"
+        android:text="__WHAT WE OFFER__ It will compare the composition of the medicine, and suggest a similar generic medicine with the same composition which is available at a cheaper rate.
+It will also display the precautionary statements, price, composition.
+It will show the nearest generic stored based on your current location.
+"/>
+</LinearLayout>
+
